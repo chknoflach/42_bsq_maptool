@@ -2,10 +2,15 @@
 extract so that:
 [your_bsq_root]/maps
 
+running this from [your_bsq_root] will do the trick:
+`wget -O tmp.z.$$ https://github.com/chknoflach/42_bsq_maptool/archive/refs/
+heads/main.zip && unzip -jd ./maps tmp.z.$$ && rm tmp.z.$$`
+
 # Use
 run with:
 ´maps/tryme.sh´
-This will run bsq with *all* .map-files in the /maps directory, including the invalid ones
+This will run `make re` and then run bsq with *all* .map-files 
+in the /maps directory, including invalid ones
 
 ## Tools
 create new map examples (will overwrite existing):
