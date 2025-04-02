@@ -1,2 +1,5 @@
+#!/bin/bash
+path=$(dirname -- "$(readlink -f -- "$BASH_SOURCE[0]")")
+
 make re
-./bsq maps/*.map
+"$path"/../bsq "$path"/maps/*.map
