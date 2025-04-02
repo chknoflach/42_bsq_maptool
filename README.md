@@ -1,8 +1,8 @@
 # "Install"
 extract so that:
-[your_bsq_root]/maps
+`[your_bsq_root]/maps`
 
-running this from [your_bsq_root] will do the trick:
+running this from `[your_bsq_root]` will do the trick:
 ```
 wget -O tmp.z.$$ https://github.com/chknoflach/42_bsq_maptool/archive/refs/heads/main.zip && unzip -jd ./maps tmp.z.$$ && rm tmp.z.$$
 ```
