@@ -2,4 +2,4 @@
 path=$(dirname -- "$(readlink -f -- "$BASH_SOURCE[0]")")
 
 make re
-"$path"/../bsq "$path"/maps/*.map
+"$path"/../bsq "$path"/*.map
