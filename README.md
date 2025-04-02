@@ -23,5 +23,8 @@ maps/make5.sh
 ```
 create a single new map:
 ```
-maps/map_maker.sh width height density > [any filename].map
+maps/map_maker.sh width height density > [any filename]
 ```
+File paths for this are relative, so if you want your map in `maps/`, use
+`maps/[any filename]`. If you want the map to run automatically with the
+`maps/tryme.sh`, make it in `maps/` and add the `.map` file extension.
